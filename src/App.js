@@ -11,12 +11,6 @@ import LogInComponent from "./Components/LogIn_Component";
 import NotesComponent from "./Components/Notes_Component";
 
 function App() {
-  console.log(process.env.REACT_APP_ADDNOTE_URL);
-  console.log(process.env.REACT_APP_UPDATENOTE_URL);
-  console.log(process.env.REACT_APP_DELETENOTE_URL);
-  console.log(process.env.REACT_APP_FETCHNOTE_URL);
-  console.log(process.env.REACT_APP_SIGNUP_URL);
-  console.log(process.env.REACT_APP_LOGIN_URL);
   return (
     <>
       <NoteState>
